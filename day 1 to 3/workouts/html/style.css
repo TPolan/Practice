@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section, ol, ul {
+  clear: both;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+img {
+  width: 200px;
+  display: block;
+}
+body > img {
+  float: left;
+  width: auto;
+}
+p {
+  line-height: 1.5em;
+  margin: 1em 0;
+  text-align: justify;
+}
+.author {
+  text-align: center;
+  font-size: 0.8em;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
