@@ -32,10 +32,10 @@ p{
   text-align: justify;
 }
 strong{
-  color: black;
+  color: rgb(219, 89, 89);
 }
 em{
-  color:  #D2D6EF;
+  color:  rgb(170, 174, 202);
 
 }
 a{
@@ -44,3 +44,4 @@ a{
 .intro, .conlusion{
   background-color: #23226C ;
 }
+
