@@ -1,0 +1,11 @@
+@import '../common/colors.scss';
+
+nav {
+    background-color: $mainbackgroundcolor;
+    justify-content: flex-start;
+    a{
+        color: $textcolor;
+        text-decoration: none;
+        padding: 1em;
+    }
+}
