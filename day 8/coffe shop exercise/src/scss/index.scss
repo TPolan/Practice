@@ -1,0 +1,38 @@
+@import 'colors';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-image: url(../img/coffee-photo.jpg);
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container{
+    background-color:rgba(110, 46, 46, 0.486);
+    color: white;
+    max-width: 28%;
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 0.8em;
+      margin: 1.5em;
+    }
+    button {
+      background-color: red;
+      padding: 2rem 1rem;
+    }
+  }
+}
+
