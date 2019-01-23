@@ -1,0 +1,24 @@
+section {
+    position: center;
+    width: 90vh;
+    height: 90vw;
+}
+
+body> section > div > div {
+    width: 15vw;
+    height: 15vh;
+    margin: 1em;
+    border: solid gray 1px;
+    }
+}
+body > section > div > div:nth-child(even) {
+    background-color: white;
+}
+body > section > div > div:nth-child(odd) {
+    background-color: black;
+}
+body > section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+$primalcolor: #ff0066;
+
+nav {
+    border: 1px solid $primalcolor;
+    a {
+        color: $primalcolor;
+        :hover {
+        background-color: $primalcolor;
+        color: #ffffff;
+        }
+    }
+}
