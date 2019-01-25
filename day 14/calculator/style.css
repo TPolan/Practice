@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    padding: 1em;
+}
+button {
+    padding: 0.5em;
+}
+.container {
+    border: 1px solid black;
+}

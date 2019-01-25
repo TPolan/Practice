@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="index.css" />
+  <title>AWE Calc</title>
+</head>
+<body>
+  <div class="calc">
+    <input type="text" class="calc__screen" value="0" />
+    <div class="calc__controls">
+      <button class="calc__btn" onclick="binOp('+')">+</button>
+      <button class="calc__btn" onclick="binOp('-')">-</button>
+      <button class="calc__btn" onclick="binOp('*')">*</button>
+      <button class="calc__btn" onclick="binOp('/')">/</button>
+      <button class="calc__btn" onclick="equals()">=</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
